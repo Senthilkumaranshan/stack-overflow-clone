@@ -1,18 +1,18 @@
 <template>
-  <v-app id="Footer"> 
-    <Header />
+  <v-app id="Main"> 
+    <Main />
     <v-container fluid>
     </v-container>
   </v-app>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Main from './components/Main.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Main
   }
 }
 </script>
